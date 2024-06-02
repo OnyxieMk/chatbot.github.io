@@ -1,0 +1,56 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .content {
+        padding: 20px;
+    }
+	.chat-bot {
+	   position: fixed;
+	   bottom: 60px;
+	   left: 50%;
+	   transform: translateX(-50%);
+	   background-color: #fff;
+	   border: 1px solid #ccc;
+	   padding: 10px;
+	}
+    input[type="text"] {
+        width: calc(100% - 70px);
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+    button {
+        padding: 5px 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+	
+	.message-area {
+    height: 200px; /* Высота области сообщений */
+    overflow-y: scroll; /* Добавить полосу прокрутки, если сообщений больше, чем помещается */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+	}

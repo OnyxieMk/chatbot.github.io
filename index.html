@@ -1,41 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Сайт</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Website</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
-
 <body>
-<header>
-    <h1>Сайт-портфолио</h1>
-    <div class="menu-toggle" onclick="document.getElementById('menu').classList.toggle('active')">
-        &#9776;
+    <header>
+        <h1>Header</h1>
+    </header>
+    
+    <div class="content">
+        <p>This is the body of the website.</p>
     </div>
-    <nav id="menu">
-        <ul>
-			<li><a href="credits.html">Главная</a></li>
-			<li><a href="index.html">Работы</a></li>
-			<li><a href="three.html">О специальности</a></li>
-        </ul>
-    </nav>
-</header>
 
-<div class="content">
-    <img src="images\baza.jpg" alt="Изображение">
-    <p style="font-size:20px; ">
-		Я, Кузнецов Максим Владиславович, студент 4 курса<br>
-		специальности "Прикладная информатика". Я увлекаюсь<br>
-		сборкой компьютеров и изучением языков программирования.<br>
-		Конкретно, мне интересна отрасль разработки игровых программ<br>
-		и искусственного интеллекта.<br><br>
-		Телефон: + 7 (996) 123 45 67<br><br>
-		E-mail: example@yandex.ru<br>
-	</p>
-</div>
+	<div class="chat-bot">
+		<div class="message-area">
+			<!-- Здесь будут отображаться сообщения -->
+		</div>
+		<input type="text" placeholder="Type your message...">
+		<button>Send</button>
+	</div>
 
+    
     <footer>
-        &copy; 2024 Кузнецов Максим
+        <p>Footer</p>
     </footer>
 </body>
 </html>
